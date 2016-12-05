@@ -1,0 +1,119 @@
+* {
+  font-family: Arial, sans-serif;
+}
+
+.main_elements {
+  position: relative;
+  padding-top: 109px;
+  text-align: center;
+}
+
+/*Google Logo*/
+#logo {
+  height: 92px;
+  width: 272px;
+}
+
+/*Search Box*/
+#search {
+  display: inline-block;
+  font: 16px;
+  height: 33px;
+  width: 550px;
+  border: 1px solid #DDD;
+  margin-top: 7px;
+}
+
+#search:hover {
+  border: 1px solid #c8c8c8;
+}
+
+#search:focus {
+  border: 1px solid cyan;
+}
+
+/*Search Buttons*/
+.submit {
+  background-color: white;
+  height: 36px;
+  font-size: 13px;
+  font-weight: bold;
+  color: #888;
+  margin-bottom: 11px;
+  margin-top: 4px;
+  margin-right: 4px;
+  margin-top: 11px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid #FFF;
+  border-radius: 2px;
+  border-image-source: none;
+  border-image-slice: 100%;
+  border-image-width: 1;
+}
+
+.submit:hover {
+  color: #3f3f3f;
+  border: 1px solid #dbdbdb;
+}
+
+/*Navbar*/
+.navbar {
+  text-align: right;
+  vertical-align: middle;
+  color: #000;
+  font-size: 13px;
+  line-height: 24px;
+  opacity: 0.70;
+  padding-right: 30px;
+  padding-top: 10px;
+}
+
+.navbar a {
+  color: #000;
+  text-decoration: none;
+  padding-left: 15px;
+  font-family: arial, sans-serif;
+	font-size: 13px;
+	opacity: .75;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.icon {
+  height: 30px;
+  width: 30px;
+  vertical-align: middle;
+  opacity: 0.75;
+}
+
+.icon:hover {
+  opacity: 1.0;
+}
+
+/*Footer*/
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-size: 13px;
+  line-height: 40px;
+}
+
+.footer a {
+  color: #787878;
+  text-decoration: none;
+  font-family: arial, sans-serif;
+	font-size: 13px;
+}
+
+.footer li {
+  display: inline-block;
+  width: 60px;
+  padding-left: 10px;
+  padding-right: 10px;
+  vertical-align: middle;
+}
